@@ -1,0 +1,104 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "authentification-suite;login-uncorrectly",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "login uncorrectly",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I open the website",
+            "result": {
+              "duration": 1014000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 4,
+            "name": "I write my credentials uncorrectly",
+            "result": {
+              "duration": 3090000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 5,
+            "name": "a bad credentials shows",
+            "result": {
+              "duration": 884000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentification-suite;login-correctly",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "login correctly",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open the website",
+            "result": {
+              "duration": 585000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 9,
+            "name": "I write my credentials correctly",
+            "result": {
+              "duration": 3579000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "a homepage will be displayed",
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "authentification-suite",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Authentification suite",
+    "uri": "cypress\\e2e\\cucumber\\features\\login.feature"
+  }
+]
